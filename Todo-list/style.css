@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(93, 91, 91);
+  font-size: 20px;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  background-color: rgb(33, 218, 200);
+  width: 150px;
+  height: 70px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 10px 0 10px;
+}
+
+button:hover {
+  background-color: rgb(13, 71, 66);
+  color: aliceblue;
+}
+button:active {
+  color: black;
+}
+
+#root {
+  background-color: rgb(208, 201, 201);
+  padding: 20px;
+  border-radius: 30px;
+  border: 3px solid black;
+  min-height: 100vh;
+}
+.upperHeader,
+.lowerHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.show {
+  width: 300px;
+ 
+}
+
+#enterTodo,
+#inputSearch {
+  width: 800px;
+  height: 70px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 10px 0 10px;
+}
+
+#inputSearch {
+  width: 300px;
+}
+
+.listDate {
+  width: 75px;
+}
+
+li {
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 10px 0 10px;
+  height: 140px;
+  width: 730px;
+  margin: 20px auto;
+  list-style: none;
+  background-color: rgb(148, 148, 148);
+}
+
+.checkComplete,
+.closeBtn {
+  width: 60px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgb(33, 218, 200);
+}
+
+.listItemText {
+  overflow: hidden;
+  height: 70px;
+  background-color: aliceblue;
+  width: 450px;
+  padding: 30px 10px;
+}
+
+.closeDiv {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: center;
+  justify-content: space-between;
+}
+.hidden {
+  display: none;
+}
+
+.completeColor {
+  background-color: darkcyan;
+}
+
+.completeLine {
+  text-decoration: line-through;
+}
