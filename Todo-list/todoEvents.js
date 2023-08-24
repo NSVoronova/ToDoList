@@ -16,7 +16,7 @@ export function headerListener() {
     if (nameClass === "deleteAll"){deleteAllFnc()}
     if (nameClass === "deleteLast"){deleteLastFnc()}
     if (nameClass === "addTodo") {addNewTodo()}
-    if (nameClass === "showAll") {showAllFnc()}
-    if (nameClass === "showCompleted") {showCompletedFnc()}
+    if (nameClass === "show showAll") {showAllFnc()}
+    if (nameClass === "show showCompleted") {showCompletedFnc()}
   });
 }
