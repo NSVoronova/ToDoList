@@ -57,7 +57,7 @@ showAll.innerHTML = "Show All";
 export let showCompleted = document.createElement("button");
 lowerHeader.append(showCompleted);
 showCompleted.setAttribute("type", "button");
-showCompleted.classList.add("show", "showComplete");
+showCompleted.classList.add("show", "showCompleted");
 showCompleted.innerHTML = "Show Completed";
 
 export let inputSearch = document.createElement("input");
